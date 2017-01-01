@@ -1,3 +1,5 @@
+I added cuda snippets and some more custom snippets
+
 snipMate & UltiSnip Snippets
 ============================
 
