@@ -1,17 +1,5 @@
 extends cpp
 
-# CUDA
-
-## CUDA printf debug
-snippet printf3f
-	printf("$1 = {%8f;%8f;%8f}\n", ${1}.x, $1.y, $1.z);
-	
-snippet printff
-	printf("$1 = %8f\n", ${1});
-	
-snippet printfd
-	printf("$1 = %8d\n", ${1});
-
 ## CUDA Functions
 snippet sync
 	__syncthreads();
